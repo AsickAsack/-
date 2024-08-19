@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Datastructure---algorithm.cpp">
+    <ClCompile Include="src\Datastructure---algorithm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StudyArray.cpp">
+    <ClCompile Include="src\StudyArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="StudyArray.h">
+    <ClInclude Include="src\StudyArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
