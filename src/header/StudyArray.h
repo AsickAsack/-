@@ -6,16 +6,13 @@
 
 using namespace std;
 
-
-
 /*
-	¹è¿­
-
-	- ¸Þ¸ð¸® »ó¿¡ ¿ø¼Ò¸¦ ¿¬¼ÓÇÏ°Ô ¹èÄ¡ÇÑ ÀÚ·á±¸Á¶
-	- O(1)¿¡ k¹øÂ° ¿ø¼Ò¸¦ È®ÀÎ/º¯°æ °¡´É
-	- Ãß°¡ÀûÀ¸·Î ¼Ò¸ðµÇ´Â ¸Þ¸ð¸®ÀÇ ¾ç(=overhead°¡ °ÅÀÇ ¾øÀ½)
-	- Cache hit rate°¡ ³ôÀ½
-	- ¸Þ¸ð¸® »ó¿¡ ¿¬¼ÓÇÑ ±¸°£À» Àâ¾Æ¾ßÇØ¼­ ÇÒ´ç¿¡ Á¦¾àÀÌ °É¸²
+	ë°°ì—´
+	- ë©”ëª¨ë¦¬ ìƒì— ì›ì†Œë¥¼ ì—°ì†í•˜ê²Œ ë°°ì¹˜í•œ ìžë£Œêµ¬ì¡°
+	- O(1)ì— kë²ˆì§¸ ì›ì†Œë¥¼ í™•ì¸/ë³€ê²½ ê°€ëŠ¥
+	- ì¶”ê°€ì ìœ¼ë¡œ ì†Œëª¨ë˜ëŠ” ë©”ëª¨ë¦¬ì˜ ì–‘(=overheadê°€ ê±°ì˜ ì—†ìŒ)
+	- Cache hit rateê°€ ë†’ìŒ
+	- ë©”ëª¨ë¦¬ ìƒì— ì—°ì†í•œ êµ¬ê°„ì„ ìž¡ì•„ì•¼í•´ì„œ í• ë‹¹ì— ì œì•½ì´ ê±¸ë¦¼
 */
 
 class StudyArray

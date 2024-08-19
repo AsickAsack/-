@@ -127,11 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Datastructure---algorithm.cpp" />
-    <ClCompile Include="src\StudyArray.cpp" />
+    <ClCompile Include="Datastructure---algorithm.cpp" />
+    <ClCompile Include="src\cpp\StudyArray.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\StudyArray.h" />
+    <ClInclude Include="src\header\StudyArray.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

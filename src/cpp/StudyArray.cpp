@@ -1,4 +1,4 @@
-#include "StudyArray.h"
+#include "../header/StudyArray.h"
 
 
 void StudyArray::TestCode()
@@ -55,8 +55,8 @@ void StudyArray::Init()
 	int b[21][21];
 
 	// 1. memset
-	// cstring Çì´õ¿¡ ÀÖ´Â ÇÔ¼ö
-	// 0°ú -1ÀÌ ¾Æ´Ï°Å³ª 2Â÷¿ø ¹è¿­À» ³ÖÀ¸¸é ¿À·ù°¡ »ı±æ ¼ö ÀÖÀ½
+	// cstring í—¤ë”ì— ìˆëŠ” í•¨ìˆ˜
+	// 0ê³¼ -1ì´ ì•„ë‹ˆê±°ë‚˜ 2ì°¨ì› ë°°ì—´ì„ ë„£ìœ¼ë©´ ì˜¤ë¥˜ê°€ ìƒê¸¸ ìˆ˜ ìˆìŒ
 	memset(a, 0, sizeof a);
 	memset(b, 0, sizeof b);
 
@@ -68,7 +68,7 @@ void StudyArray::Init()
 			b[i][j] = 0;
 
 	//3. fill
-	//Á¦ÀÏ ÃßÃµ. ¾Ë°í¸®Áò Çì´õ¿¡ ÀÖÀ½.
+	//ì œì¼ ì¶”ì²œ. ì•Œê³ ë¦¬ì¦˜ í—¤ë”ì— ìˆìŒ.
 	std::fill(a, a + 21, 0);
 	for (int i = 0;i < 21;i++)
 		std::fill(b[i], b[i] + 21, 0);
@@ -81,7 +81,7 @@ void StudyArray::PracticeVector()
 	cout << v1.size() << '\n'; //3
 	v1.push_back(7); // {5,5,5,7};
 
-	//ÀÌ·±½ÄÀ¸·Î ¼øÈ¸ °¡´É
+	//ì´ëŸ°ì‹ìœ¼ë¡œ ìˆœíšŒ ê°€ëŠ¥
 	for (int i : v1)
 		cout << i << '\n';
 
@@ -101,8 +101,8 @@ void StudyArray::PracticeVector()
 	v4.clear(); // {}
 
 	
-	//push_back & pop_back Àº O(1)
-	//insert & erase ´Â O(n)
+	//push_back & pop_back ì€ O(1)
+	//insert & erase ëŠ” O(n)
 
 }
 
